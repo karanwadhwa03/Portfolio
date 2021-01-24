@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+}
+
+.container a {
+  font-size: 32px;
+  letter-spacing: 0.5rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.container :hover {
+  text-decoration: none;
+}
+
+.container .right {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.container .right span {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  color: black;
+  margin: 4px;
+}
+
+.trans {
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,55 @@
+.select {
+  position: relative;
+  display: block;
+  z-index: 10;
+}
+
+.line {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: Josefin Sans;
+  z-index: 100;
+  mix-blend-mode: difference;
+}
+
+@media (max-width: 768px) {
+  .line {
+    font-size: 32px;
+    color: pink;
+  }
+}
+
+.about {
+  cursor: pointer;
+  font-size: 28px;
+  color: purple;
+  font-family: Josefin Sans;
+  position: relative;
+}
+
+.about span:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: black;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.about span:hover {
+  color: pink;
+}
+
+.about span:hover:after {
+  width: 100%;
+  left: 0;
+  background: black;
+}
+/*# sourceMappingURL=content.css.map */

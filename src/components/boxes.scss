@@ -1,0 +1,27 @@
+
+.bordered{
+    position: relative;
+    // border:2px solid black;
+    
+}
+
+.first{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0,-50%);
+    z-index: 2;
+    font-size: 48px;
+    font-weight: 500;
+    
+}
+.hovered{
+    transition: .5s all ease-in;
+    overflow: hidden;
+}
+.hovered:hover{
+    scale: 1.075;
+
+}
+

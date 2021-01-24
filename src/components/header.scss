@@ -1,0 +1,35 @@
+.container {
+    //margin-top: 20px;
+    //padding-top:20px ;
+    position: relative;
+    a {
+      font-size: 32px;
+      letter-spacing: 0.5rem;
+      color: black;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    & :hover{
+        text-decoration: none;
+
+    }
+    .right{
+        position: absolute;
+        right:50px;
+        top:50%;
+        transform: translate(-50%,-50%);
+        cursor: pointer;
+        span{
+            width: 25px;
+            height: 3px;
+            background-color: black;
+            color: black;
+            margin: 4px;
+        }
+    }
+  }
+  
+  .trans{
+    transition:5s;
+    
+}
