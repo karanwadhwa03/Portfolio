@@ -238,7 +238,7 @@ const Acc=()=>{
 
                                         </div>
                                         <div className="col -md">
-                                            <a href='https://www.codechef.com/users/knightbaron'><img src={codechef} style={{width:'150px',height:'auto'}}></img>     </a>
+                                            <a href='https://www.codechef.com/users/karancodechef1'><img src={codechef} style={{width:'150px',height:'auto'}}></img>     </a>
 
                                         </div>
 
