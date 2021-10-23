@@ -58,7 +58,7 @@ const Acc=()=>{
                                             <br/>
                                             <ul>
                                             <li> <i> Working As Frontend Developer </i> </li>
-                                               <li> Refined the code flow by redesigning the code structure from scratch, thus improving the system’s performance by 5% </li>
+                                               <li> Refined the code flow by redesigning the code structure from scratch <br/>thus improving the system’s performance by 5% </li>
 <li>Implemented Many features as per the requirement for clients .</li>
 <li> Improvised UI for many screen ,used React , SCSS and Redux state management for the same </li>
                                             </ul>
@@ -344,7 +344,18 @@ const Acc=()=>{
 </a>
                                         <a href='https://www.linkedin.com/in/karan-wadhwa-383156173/'> < i class="fa fa-linkedin-square" style={{color:'blue'}} ></i>
 </a>
-                                    </div>  
+                                    </div> 
+                                    <div className="text-center" >
+                                            <a href={"https://karanwadhwa.hashnode.dev/"}   style={{
+                                                fontSize: '20px',
+                                                letterSpacing:'0', 
+                                                textDecoration:'underline',
+                                                 color: '#0000ff',
+                                                
+                                                
+
+                                            }}> Visit My Blog</a>
+                                        </div> 
                            
                             </div>
                     </div>
