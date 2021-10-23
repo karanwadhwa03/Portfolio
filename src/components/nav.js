@@ -1,5 +1,5 @@
 import React from 'react'
-import Pdf from './../assets/karan5.pdf'
+import Pdf from './../assets/KaranCV.pdf'
 
 const Nav=()=>{
 

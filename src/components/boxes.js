@@ -12,7 +12,7 @@ const Boxes=()=>{
                     
                     <span className="first">
                     <i class='fas fa-desktop' ></i>
-                    <h1>Web Developer</h1>
+                    <h1>Software Engineer</h1>
                    
                     </span>
                     <img src={Image} className=""

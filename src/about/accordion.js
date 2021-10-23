@@ -25,13 +25,55 @@ const Acc=()=>{
                             <label className="tab-label" for="chck1">About</label>
                             <div className="tab-content">
                                 
-                            Hello Sir/Ma'am . My name is Karan . I am final year student .
-                            I am Full Stack Developer specialized in javascript technologies like React And backend framework like Node . 
+                            Hello Sir/Ma'am . My name is Karan . I am an IT graduated from YMCA University in 2021 . Currently I am working as Software Developer at Samsung R&D(SRI-D) 
+                            Along that i also have done intern in Investwell as Frontend Developer where i mainly work in React & Redux.I am Full Stack Developer specialized in javascript technologies like React And backend framework like Node . 
                             With That I Have immense knowledge About Data Structure And Algorithms. I Also Have Knowledge About Tools Like Figma,Git.
                             </div>
                     </div>
       
                 </div>
+
+                <div className="tabs">
+                    <div className="tab">
+                            <input type="checkbox" id="chckExp"></input>
+                            <label className="tab-label" for="chckExp">Experience</label>
+                            <div className="tab-content">
+                            <div className="row">
+                                    <div className="col">
+                                            <b>Samsung Electronics</b>
+                                            <br/>
+                                            <ul>
+                                               <li> <i> Working As Software Developer </i> </li>
+                                            </ul>
+                                        </div>
+                                        <div className="col">
+                                            Aug 2021 - <i> <b>Current</b></i>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="row">
+                                    <div className="col">
+                                           <b> Investwell </b>
+                                            <br/>
+                                            <ul>
+                                            <li> <i> Working As Frontend Developer </i> </li>
+                                               <li> Refined the code flow by redesigning the code structure from scratch, thus improving the system’s performance by 5% </li>
+<li>Implemented Many features as per the requirement for clients .</li>
+<li> Improvised UI for many screen ,used React , SCSS and Redux state management for the same </li>
+                                            </ul>
+                                        </div>
+                                        <div className="col">
+                                           Jan 2021 - July 2021
+                                        </div>
+
+                                    </div>
+                            
+                            </div>
+                    </div>
+      
+                </div>
+
 {/*  */}
                 <div className="tabs">
                     <div className="tab">
@@ -233,10 +275,10 @@ const Acc=()=>{
                                             <a href='https://codeforces.com/profile/JackSparrow03'><img src={codeforces} style={{width:'200px',height:'auto'}}></img>     </a>
 
                                         </div>
-                                        <div className="col-md">
+                                        {/* <div className="col-md">
                                             <a href='https://leetcode.com/karancodechef1/'><img src={Leetcode} ></img>     </a>
 
-                                        </div>
+                                        </div> */}
                                         <div className="col -md">
                                             <a href='https://www.codechef.com/users/karancodechef1'><img src={codechef} style={{width:'150px',height:'auto'}}></img>     </a>
 
