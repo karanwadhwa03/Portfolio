@@ -24,10 +24,9 @@ const Acc=()=>{
                             <input type="checkbox" id="chck1"></input>
                             <label className="tab-label" for="chck1">About</label>
                             <div className="tab-content">
-                                
-                            Hello Sir/Ma'am . My name is Karan . I am an IT graduated from YMCA University in 2021 . Currently I am working as Software Developer at Samsung R&D(SRI-D) 
-                            Along that i also have done intern in Investwell as Frontend Developer where i mainly work in React & Redux.I am Full Stack Developer specialized in javascript technologies like React And backend framework like Node . 
-                            With That I Have immense knowledge About Data Structure And Algorithms. I Also Have Knowledge About Tools Like Figma,Git.
+                                Hello Sir/Ma'am , My name is Karan . I am working as Software Developer from last one year . Currently i am associated with Sharechat at the post of software Developer .
+                                Regarding My work at Sharechat i worked as backend engineer in Chat-Payments Team where my job is to develop the new features regarding payments like combo pack , vip pack and flash sale for cohorts
+                                and ensuring payment flow is working smoothly . In past i also worked with samsung where my job is to make UI screens for TV plus App and to make internal tool to help developer and tester.
                             </div>
                     </div>
       
@@ -38,19 +37,43 @@ const Acc=()=>{
                             <input type="checkbox" id="chckExp"></input>
                             <label className="tab-label" for="chckExp">Experience</label>
                             <div className="tab-content">
-                            <div className="row">
+                                <div className="row">
                                     <div className="col">
-                                            <b>Samsung Electronics</b>
-                                            <br/>
-                                            <ul>
-                                               <li> <i> Working As Software Developer </i> </li>
-                                            </ul>
-                                        </div>
-                                        <div className="col">
-                                            Aug 2021 - <i> <b>Current</b></i>
-                                        </div>
-
+                                        <b>ShareChat</b>
+                                        <br/>
+                                        <ul>
+                                            <li>  Integrated and enhanced feature for Razorpay api in app for transactions which reduced the cost by
+                                                almost ~10 -15%  </li>
+                                            <li>
+                                                 Developed many product features like Combo pack, VIP pack , FlashSale for particular cohorts which is
+                                                live on app in which users can buy coins with dynamic discounts and it eventually helped in increasing
+                                                revenue by 7-8%  </li>
+                                            <li>Integrated smart and efficient CRON jobs to multiple micro-services in order to handle failed
+                                                transactions increasing transaction efficiency to 100%</li>
+                                            <li>Enhanced performance of the APIs by adding caching, using pub/sub and cloud task.
+                                            </li>
+                                        </ul>
                                     </div>
+                                    <div className="col">
+                                        Feb 2022 - <i> <b>Current</b></i>
+                                    </div>
+
+                                </div>
+                                <div className="row">
+                                    <div className="col">
+                                        <b>Samsung Electronics</b>
+                                        <br/>
+                                        <ul>
+                                            <li>  Implemented UI for many pages in smart device app named TV PLUS  </li>
+                                            <li>  Added KPI's (Key performance indicator) for site resource monitoring (Integrated data analytics pipeline for improvement marketing and customer experience).  </li>
+                                            <li>  Developed backend services for internal tools helping in handling the app login usage for Developer / Tester separately  </li>
+                                        </ul>
+                                    </div>
+                                    <div className="col">
+                                        Aug 2021 - Feb 2022
+                                    </div>
+
+                                </div>
 
                                     <div className="row">
                                     <div className="col">
@@ -68,13 +91,13 @@ const Acc=()=>{
                                         </div>
 
                                     </div>
-                            
+
                             </div>
                     </div>
-      
+
                 </div>
 
-{/*  */}
+
                 <div className="tabs">
                     <div className="tab">
                             <input type="checkbox" id="chck2"></input>
